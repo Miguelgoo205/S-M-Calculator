@@ -1,0 +1,92 @@
+TEST 1: Realizado en la consola.
+
+- Validar Inputs
+R/= Al probar con letras, me permitia realizar la operacion.
+
+- Validar los numeros decimales con el punto o con la coma.
+R/= Al probar con coma, me toma como otro parametro.
+
+- Validar la división por 0
+R/= Al dividir por 0 me aparece un numero infinito, deberia de mostrar que no se puede dividir por 0.
+
+- Validar las operaciones con numeros negativos.
+R/= Las cinco operaciones cumplen con esta validacion.
+
+- Validar las operaciones con numeros decimales.
+R/= Las cinco operaciones cumplen con esta validacion.
+
+- Validar la falta de alguno de los parametros.
+R/= Al probar la validacion, me permitia realizar la operacion sin alguno de los parametros.
+
+- Validar la operacion necesaria.
+R/= Al realizar esta validacion, me tocaba realizar las 5 operaciones al mismo tiempo o comentar las que no queria que se realizaran.
+
+
+
+TEST 2: Realizado atraves del DOM con botones.
+
+- Validar Inputs
+R/= Al probar con letras, no me permitia ingresar Strings
+
+- Validar los numeros decimales con el punto o con la coma.
+R/= Al validar los numeros decimales con el punto o con la coma, me permitia ingresar cualquiera de los dos.
+
+- Validar la división por 0
+R/= Al dividir por 0 me salta una alerta indicandome que esta acción no se puede realizar.
+
+- Validar las operaciones con numeros negativos.
+R/= Las cinco operaciones cumplen con esta validacion, me mostraban los valores correctos.
+
+- Validar las operaciones con numeros decimales.
+R/= Las cinco operaciones cumplen con esta validacion.
+
+- Validar la falta de alguno de los parametros.
+R/= Al probar la validacion, me permitia realizar la operacion sin alguno de los parametros.
+
+- Validar la operacion modulo.
+R/= Al realizar la validacion, me presentaba los valores correctos.
+
+- Validar los botones.
+R/= Al dar click en alguno de los botones y los inputs estaban vacios, me realizaba la operacion.
+
+
+TEST 3: Realizado atraves del DOM sin botones.
+
+NOTA: Por petición del cliente se cambio uno de los requisitos funcionales de nuestro sistema (No queria utilizar el mouse).
+
+
+- Validar Inputs
+R/= Al probar con letras, no me permitia ingresar Strings
+
+- Validar los numeros decimales con el punto o con la coma.
+R/= Al validar los numeros decimales con el punto o con la coma, me permitia ingresar cualquiera de los dos.
+
+- Validar la división por 0
+R/= Al dividir por 0 me salta una alerta indicandome que esta acción no se puede realizar.
+
+- Validar las operaciones con numeros negativos.
+R/= Las cinco operaciones cumplen con esta validacion, se mostraban los valores correctos.
+
+- Validar las operaciones con numeros decimales.
+R/= Las cinco operaciones cumplen con esta validacion.
+
+- Validar la falta de alguno de los inputs
+R/= Al probar la validacion, no me permitia realizar la operacion si alguno de los inputs se encuentra vacios.
+
+- Validar la operacion modulo.
+R/= Al realizar la validacion, me presentaba los valores correctos, esta validacion se hizo con numeros decimales, negativos y enteros, siendo el diviendo mayor y el divisor menor, y viceversa.
+
+- Validar el input del operador
+R/= Al ingresar un operador o signo distinto a los establecidos, me salta una alerta indicando que he ingresado un operador incorrecto
+
+- Validar numero de Euler
+R/= No me permite utilizar el identificador de este numero (e) en los inputs tipo number.
+
+- Validar enter.
+R/= Al dar click en enter y todos los campos o algunos se encuentran vacios, nos salta una alerta indicando el error.
+
+
+
+
+
+ 
